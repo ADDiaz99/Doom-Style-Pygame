@@ -7,8 +7,9 @@ from raycasting import *
 from object_renderer import *
 from sprite_object import *
 from object_handler import *
+# Cabeza de ahuyama
 
-
+'''
 class Game:
     def __init__(self):
         pg.init()
@@ -51,7 +52,7 @@ class Game:
             self.check_events()
             self.update()
             self.draw()
-
+'''
 if __name__ == '__main__':
     game = Game()
     game.run()
