@@ -29,6 +29,7 @@ class Game:
         self.object_handler = ObjectHandler(self)
         self.weapon = Weapon(self)
         self.sound = Sound(self)
+        pg.mixer.music.play(-1)
 
     def update(self):
         self.player.update()
